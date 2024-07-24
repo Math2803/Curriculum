@@ -1,0 +1,126 @@
+#session2{
+	/*CARACTERISTICA*/
+	display: flex;
+
+	/*Tamanho*/
+	width: 100%;
+	height: 600px;
+
+	/*TEXTO*/
+	color: #000;
+
+	/*Comportamento Filhos*/
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+#session2 > *{
+	flex: 1;
+}
+
+#tituloSession2{
+	/*CARACTERISTICA*/
+	display: flex;
+
+	/*Comportamento Filhos*/
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+#tituloSession2 > i{
+	/*Texto*/
+	font-size: 80px;
+}
+
+#tituloSession2 > span{
+	/*Texto*/
+	font-size: 25px;
+}
+
+#painel{
+	/*Caracteristica*/
+	display: flex;
+	
+	/*Tamanho*/
+	width: 100%;
+	
+	/*Comportamento Filhos*/
+	justify-content: space-evenly;
+}
+
+#painel > .card {
+	/*margin: 0px 10px;*/
+}
+
+.card{
+	/*Caracteristica*/
+	display: flex;
+	position: relative;
+
+	/*Tamanho*/
+	width: 250px;
+	height: 150px;
+
+	/*Stilo*/
+	border: 15px solid #000;
+	cursor: pointer;
+
+	/*Comportamento Filhos*/
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+	/*Animação*/
+	transition: background-color 0.3s ease;
+}
+
+.card > img{
+	width: 100%;
+}
+
+.escondido {
+	/*Caracteristica*/
+	display: none;
+	position: absolute;
+	
+	/*Tamanho*/
+	width: 92%;
+	height: 88%;
+
+	/*Posicao*/
+	top: 0%;
+	left: 50%;
+	pointer-events: none; /* Evita que o conteúdo seja clicável */
+	z-index: 1; /* Garante que o conteúdo esteja acima do botão */
+
+	/*Espaçamento*/
+	padding: 10px;
+
+	/*Stilo*/
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	
+	/*Comportamento Filhos*/
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+
+	/*Texto*/
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+	
+	/*Animação*/
+	transition: width 0.3s ease;
+	animation: transicao 1s;
+	transform: translateX(-50%);
+}
+
+/*Animações*/
+@keyframes transicao{
+	from{top: 100%; height: 0%}
+	to{top: 0%; height: 88%}
+}

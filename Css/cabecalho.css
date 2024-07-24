@@ -1,0 +1,133 @@
+#menu_escondido > i{
+	display: none;
+}
+
+body, html{
+	/*ESPAÇAMENTO*/
+	margin: 0px;
+	padding: 0px;
+
+	/*TAMANHO*/
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	display: flex;
+}
+
+#cabecalho{
+	/*Caracteristica*/
+	background: #000;
+	display: flex;
+
+	/*Tamanho*/
+	width: 100%;
+	height: 75px;
+
+	/*Comportamento Filhos*/
+	justify-content: center;
+	align-items: center;
+}
+
+#cabecalho > #imgCab{
+	/*Espaço*/
+	flex: 0.3;
+}
+
+#cabecalho > *{
+	/*Espaço*/
+	flex: 0.7;
+}
+
+#imgCab{
+	/*Caracteristica*/
+	display: flex;
+
+	/*Comportamento Filhos*/
+	justify-content: center;
+
+	/*Texto*/
+	font-size: 25px;
+}
+
+#imgCab > span{
+	/*Espacamento*/
+	padding: 0px 10px;
+}
+
+nav{
+	/*Caracteristica*/
+	display: flex;
+
+	/*Comportamento Filhos*/
+	justify-content: space-around;
+}
+
+nav > a{
+	/*Designer*/
+	cursor: pointer;
+	text-decoration: none;
+
+	/*texto*/
+	color: #fff;
+}
+
+.linkSelecionado{
+	/*Espacamento*/
+	padding: 10px;
+	
+	/*Stilo*/
+	border: 1px solid #fff;
+}
+
+#seasons{
+	/*Tamanho*/
+	flex: 1;
+}
+
+aside{
+	/*Caracteristica*/
+	position: relative;
+	display: flex;
+	writing-mode: vertical-rl; /* define a direção do texto verticalmente */
+	/*transform: rotate(180deg); /* rotaciona o texto para a posição desejada */
+
+	/*Tamanho*/
+	flex: 0.02;
+	
+	/*Stilo*/
+	cursor: pointer;
+
+	/*Comportamento Filhos*/
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	/*Texto*/
+	text-align: center; /* alinha o texto no centro */
+	white-space: nowrap; /* impede que o texto quebre em várias linhas */
+}
+
+aside > *{
+	position: fixed;
+}
+
+#social > i{
+	/*Espaçamento*/
+	margin: 10px 0px;
+
+	/*Texto*/
+	font-size: 20px;
+}
+
+.cabecalho-fixo{
+	/*Caracteristica*/
+	position: fixed;
+
+	/*Tamanho*/
+	width: 96%;
+
+	/*Posição*/
+	z-index: 999;
+}

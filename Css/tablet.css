@@ -1,0 +1,60 @@
+@media screen and (max-width: 1300px){
+	#cabecalho{
+		display: none;
+	}
+
+	#cabecalho{
+		display: flex;
+	    justify-content: space-around;
+	    height: 75px;
+	    align-content: center;
+	    flex-wrap: wrap;
+	    font-size: 25px;
+	}
+
+	#cabecalho > *{
+		flex: 1;
+	}
+
+	#cabecalho > #imgCab{
+		flex: 1;
+	}
+
+	#menu_escondido{
+		display: flex;
+		position: relative;
+		justify-content: center;
+	}
+
+	#menu_escondido > i{
+		display: flex;
+	}
+
+	#menu_navegacao{
+		display: none;
+		width: 90%;
+	    z-index: 999;
+	    margin: 0px;
+	    border: 1px solid #fff;
+	    background-color: #808080;
+		top: 30px;
+		position: absolute;
+		flex-direction: column;
+	}
+
+	#cabecalho > div > nav > a{
+		padding: 10px 20px;
+	}
+	
+	aside{
+		display: none;
+	}
+
+	.menuSome{
+		display: none;
+	}	
+
+	#contato{
+		align-items: flex-start;
+	}
+}

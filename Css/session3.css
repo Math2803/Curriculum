@@ -1,0 +1,213 @@
+#session3{
+	/*CARACTERISTICA*/
+	display: flex;
+
+	/*Tamanho*/
+	width: 100%;
+	height: 600px;
+
+	/*Stilo*/
+	background-color: #808080;
+
+	/*TEXTO*/
+	color: #fff;
+
+	/*Comportamento Filhos*/
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+#session3 > * {
+	/*Tamanho*/
+	flex: 1;
+}
+
+#tituloSession3{
+	/*CARACTERISTICA*/
+	display: flex;
+
+	/*Comportamento Filhos*/
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+#tituloSession3 > i{
+	/*Texto*/
+	font-size: 80px;
+}
+
+#tituloSession3 > span{
+	/*Texto*/
+	font-size: 25px;
+}
+
+#experiencia{
+	/*Caracteristica*/
+	display: flex;
+
+	/*Tamanho*/
+	width: 100%;
+	flex: 0.7;
+
+	/*Espacamento*/
+	padding: 0px 10px;
+
+	/*Comportamento Filhos*/
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#LinhaExperiencia{
+	/*Caracteristica*/
+	display: flex;
+
+	/*Tamanho*/
+	width: 100%;
+
+	/*Espacamento*/
+	padding: 0px 10px;
+
+	/*Comportamento Filhos*/
+	justify-content: center;
+	align-items: center;
+}
+
+#linha{
+	/*Caracteristica*/
+	display: inline-block;
+	position: relative;
+
+	/*Tamanho*/
+	width: 75%;
+
+	/*Stilo*/
+	border: 1px solid #000;
+}
+
+.janelaCicle{
+	/*Caracteristicas*/
+	display: flex;
+	position: absolute;
+
+	/*Posicionamento*/
+	top: -15px;
+
+	/*Comportamento Filhos*/
+	align-items: center;
+	flex-direction: column;
+}
+
+#mini1{
+	/*Posicionamento*/
+	left: 30%;
+}
+
+#mini2{
+	/*Posicionamento*/
+	left: 60%;
+}
+
+.miniCircle{
+	/*Caracteristica*/
+	display: flex;
+	position: relative;
+	
+	/*Tamanho*/
+	width: 30px;
+	height: 30px;
+
+	/*Stilo*/
+	background-color: #808080;
+	border: 1px solid #696969;
+	border-radius: 100%;
+	cursor: pointer;
+	
+	/*Comportamento Filhos*/
+	align-items: center;
+	justify-content: center;
+}
+
+.circle{
+	/*Caracteristica*/
+	display: flex;
+
+	/*Tamanho*/
+	width: 50px;
+	height: 50px;
+
+	/*Stilo*/
+	border: 1px solid #000;
+	border-radius: 100%;
+	cursor: pointer;
+
+	/*Texto*/
+	font-size: 40px;
+
+	/*Comportamento Filhos*/
+	justify-content: center;
+	align-items: center;
+}
+
+.selecionado::before{
+	/*Caracteristica*/
+	content: ''; /* Importante para o pseudo-elemento */
+    position: absolute; 
+
+    /*Posicionamento*/
+    top: 50%; /* Ajusta a posição verticalmente */
+    left: 50%; /* Ajusta a posição horizontalmente */
+	transform: translate(-50%, -50%); /* Move o pseudo-elemento para o centro */
+    
+    /*tamanho*/
+    width: 20px; /* Largura do círculo pseudo-elemento */
+    height: 20px; /* Altura do círculo pseudo-elemento */
+
+    /*Stilo*/
+    background-color: #000; /* Cor de fundo do círculo pseudo-elemento */
+    border-radius: 50%; /* Faz o círculo pseudo-elemento */
+}
+
+.selecionado{
+	/*Stilo*/
+	border: 1px solid #000;
+}
+
+#painelExper{
+	/*Caracteristica*/
+	display: flex;
+
+	/*Comportamento Filhos*/
+    flex-direction: column;
+    align-items: center;
+}
+
+#TituloExper{
+	font-size: 30px;
+}
+
+#conteudoExper{
+	/*Tamanho*/
+	width: 60%;
+	
+	/*Espaçamento*/
+	margin-top: 20px;
+	
+	/*Texto*/
+	font-size: 18px;
+    text-align: center;
+}
+
+#empresa{
+	/*Espaçamento*/
+	padding: 10px 20px;
+    margin: 20px 0px;
+	
+	/*Stilo*/
+    background-color: #808080;
+
+    /*Texto*/
+    color: #fff;
+}

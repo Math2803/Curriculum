@@ -1,0 +1,107 @@
+#session4{
+	/*CARACTERISTICA*/
+	display: flex;
+
+	/*Tamanho*/
+	width: 100%;
+	min-height: 600px;
+
+	/*Espaçamento*/
+	padding-bottom: 30px;
+
+	/*Stilo*/
+	background-color: #000;
+
+	/*TEXTO*/
+	color: #fff;
+
+	/*Comportamento Filhos*/
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+#session4 > * {
+	/*Tamanho*/
+	flex: 1;
+}
+
+#tituloSession4{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	/*CARACTERISTICA*/
+	display: flex;
+
+	/*Comportamento Filhos*/
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+#tituloSession4 > i{
+	/*Texto*/
+	font-size: 80px;
+}
+
+#tituloSession4 > span{
+	/*Texto*/
+	font-size: 25px;
+}
+
+#painelSession4{
+	display: flex;
+	width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardSession4{
+	display: flex;
+    align-content: stretch;
+    flex-direction: column;
+	width: 300px;
+	height: 400px;
+	border: 1px outset #fff;
+	border-radius: 20px;
+	background-color: #fff;
+	color: #000;
+	margin-top: 10px;
+}
+
+.S4imagens{
+	margin: 10px;
+    flex: 1;
+	/*background: url("Imagens/iftm_local.jpg");*/
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.S4descricao{
+	flex: 1;
+	display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#saibaMais{
+	width: 100%;
+    display: flex;
+    flex: 0.1;
+    justify-content: flex-end;
+}
+
+#saibaMais > span{
+	margin-right: 30px;
+    background-color: #808080;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.esconde > div:nth-child(n + 5){
+	background-color: #f00;
+	display: none;
+}

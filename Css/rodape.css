@@ -1,0 +1,56 @@
+footer{
+	display: flex;
+	background: #363636;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+footer > *{
+	height: 70%;
+	flex: 1;
+}
+
+#agradecimento{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-right: 5px solid #fff;
+}
+
+#agradecimento > i{
+	font-size: 50px;
+}
+
+#agradecimento > span{
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+#mapa{
+	display: flex;
+	justify-content: center;
+	border-right: 5px solid #fff;
+}
+
+#mapa > iframe{
+	width: 90%;
+}
+
+#titulo{
+	font-size: 25px;
+	font-weight: bold;
+	width: 100%;
+    text-align: center;
+	/*margin-bottom: 10px;*/
+}
+
+#contato{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+}
