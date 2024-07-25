@@ -98,7 +98,6 @@ function inserirLinha(html, posicao, tempo, titulo, empresa, conteudo){
 }
 
 main = ()=>{
-	alert("aaa");
 	/*Pegando HTML*/
 	const linha = document.getElementById("linha");
 	const esquerda = document.getElementById("S3Esquerda");
