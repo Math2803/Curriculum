@@ -50,6 +50,10 @@
 		display: none;
 	}
 
+	#session3{
+		padding-bottom: 20px;
+	}
+
 	#contato{
 		align-items: flex-start;
 	}

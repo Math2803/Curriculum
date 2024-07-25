@@ -42,10 +42,16 @@
 		flex-direction: column;
 	}
 
+	#menu_navegacao a:nth-child(3) {
+    	/* Estilos para o terceiro filho */
+    	display: none;
+	}
+
 	#cabecalho > div > nav > a{
 		padding: 10px 20px;
 	}
-	
+
+
 	aside{
 		display: none;
 	}
@@ -76,6 +82,26 @@
 
 	#mapa{
 		display: none;
+	}
+
+	#session1{
+		padding-bottom: 20px;
+	}
+	
+	#session3{
+		height: 0px;
+	}
+
+	#session3 > *{
+		display: none;
+	}
+
+	#session6{
+		padding-top: 20px;
+	}
+
+	#tituloSession6{
+		padding-bottom: 20px;
 	}
 
 	#contato{
