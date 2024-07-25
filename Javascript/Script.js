@@ -31,7 +31,7 @@ function downloadArquivo(url) {
   //let url = 'Download/Curriculum.pdf';
   
   // Nome do arquivo para salvar (opcional)
-  let nomeArquivo = 'curriculum';
+  let nomeArquivo = 'Curriculum';
 
   // Criando um link temporário
   let link = document.createElement('a');
