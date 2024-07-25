@@ -200,7 +200,7 @@ main = ()=>{
 		downloadArquivo("https://www.linkedin.com/in/matheus-vin%C3%ADcius-452988183/");
 	});
 	email.addEventListener("click",function(){
-		alert("Em manutenção");
+		downloadArquivo("mailto:matheus.matheuscunha2@outlook.com");
 	});
 	telegram.addEventListener("click",function(){
 		downloadArquivo("https://t.me/matheus2803");
