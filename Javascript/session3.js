@@ -106,7 +106,7 @@ main = ()=>{
 	/*Declarando Vetor*/
 	var expProfiss = [
 		["30%","Jun 2019- Jul 2019","Desenvolvedor Back-end","Softleader","Estagio com total de 120h na empresa Softleader atuando como desenvolvendor Back-End, responsavel em atuar na construção e manutenção dos bastidores das aplicações web, utilizando-se das linguagens: Angular, Typescript, html, Sql e Cs"],
-		["60%","Set 2023 - dez 2024", "Coordenador de Projetos", "Conselt", "Minha experiência inclui a coordenação de equipes multidisciplinares, garantindo a entrega de soluções de alta qualidade dentro dos prazos estabelecidos. Estando adepto a metodologias ágeis, como Scrum e Kanban, e utilização de ferramentas modernas de gestão de projetos para facilitar a colaboração e a comunicação eficaz entre os membros da equipe."];
+		["60%","Set 2023 - dez 2024", "Coordenador de Projetos", "Conselt", "Minha experiência inclui a coordenação de equipes multidisciplinares, garantindo a entrega de soluções de alta qualidade dentro dos prazos estabelecidos. Estando adepto a metodologias ágeis, como Scrum e Kanban, e utilização de ferramentas modernas de gestão de projetos para facilitar a colaboração e a comunicação eficaz entre os membros da equipe."]
 	];
 
 	/*Chamada de função*/
