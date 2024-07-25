@@ -185,7 +185,7 @@ main = ()=>{
 	
 	/*Adicionando Eventos*/
 	btn.addEventListener("click",function(){
-		downloadArquivo("Download/Curriculum.pdf");
+		downloadArquivo("Download/Curriculum2.pdf");
 	});
 	whatsapp.addEventListener("click",function(){
 		downloadArquivo("https://wa.me/qr/3YBYAC4OX62DE1");
