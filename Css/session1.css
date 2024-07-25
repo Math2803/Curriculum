@@ -9,6 +9,9 @@
 #session1{
 	/*Designer*/
 	background-color: #000;
+
+	/*Espacamento*/
+	padding-bottom: 10px;
 }
 
 #apresentation{
@@ -17,7 +20,7 @@
 
 	/*Tamanho*/
 	width: 100%;
-	height: 600px;
+	min-height: 600px;
 
 	/*Comportamento Filhos*/
 	justify-content: space-around;
@@ -53,6 +56,10 @@
 
 	/*Texto*/
 	color: #000;
+}
+
+#imgSession1{
+	width: 100%;
 }
 
 #imgSession1 > img{

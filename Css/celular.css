@@ -1,4 +1,4 @@
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 500px){
 	#cabecalho{
 		display: none;
 	}
@@ -50,7 +50,35 @@
 		display: none;
 	}
 
+	#apresentation{
+		flex-direction: column;
+	}	
+
+	#shortText{
+		align-items: center;
+	}
+
+	#carrosel > span{
+		margin: 0px 5px;
+	}
+
+	#painelCarrosel{
+		width: 100%;
+	}
+
+	#txtCentral{
+		font-size: 18px;
+	}
+
+	#agradecimento{
+		display: none;
+	}
+
+	#mapa{
+		display: none;
+	}
+
 	#contato{
-		align-items: flex-start;
+		align-items: center;
 	}
 }
