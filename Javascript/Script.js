@@ -142,7 +142,6 @@ function atulizaCarrosel(texto){
 
 /*Função Principal*/
 main = ()=>{
-	alert("aaa");
 	/*Pegando Html*/
 	const btn = document.getElementById("Download");
 	const whatsapp = document.getElementById("whatsapp");
